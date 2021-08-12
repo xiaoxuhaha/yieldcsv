@@ -64,7 +64,7 @@ class Qushu {
      */
     public function getCsv() {
        try{
-           $mysql = new PDO('mysql:host=172.30.232.80;dbname=test', "root", "123456", [
+           $mysql = new PDO('mysql:host=127.0.0.1;dbname=test', "root", "123456", [
 //               PDO::ATTR_PERSISTENT => true
            ]);;
        }catch (Throwable $exception){
